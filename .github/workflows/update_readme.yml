@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # Include any other dependencies you might need
+
+    - name: Run script
+      run: python ./.github/scripts/generate_readme.py ${{ github.workspace }}

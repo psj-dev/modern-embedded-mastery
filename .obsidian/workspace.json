@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ea08b84491d77ade",
+    "id": "c9bf8ebafe3e2392",
     "type": "split",
     "children": [
       {
-        "id": "d2730304d5bb93f8",
+        "id": "83bffe33b25ec74b",
         "type": "tabs",
         "children": [
           {
-            "id": "67ce006ff55bbde4",
+            "id": "cfd248738e3750b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b180725190545f28",
+    "id": "195dbbb34b060981",
     "type": "split",
     "children": [
       {
-        "id": "8aa08adbdaf7d714",
+        "id": "ed7e28eac5a36b26",
         "type": "tabs",
         "children": [
           {
-            "id": "8caca25f839d2cd9",
+            "id": "4c388e361a488f7f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "c8916da8a1a7de22",
+            "id": "fa5963c6445098cb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "2d47184cf9d9f67a",
+            "id": "887354067ae18f09",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,18 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "right": {
-    "id": "37758c4a8ddc4f39",
+    "id": "e57f670d6cc765bb",
     "type": "split",
     "children": [
       {
-        "id": "ddbe89c096e458e1",
+        "id": "8abedb3cb17c20cc",
         "type": "tabs",
         "children": [
           {
-            "id": "30b14424ff01ac57",
+            "id": "616a5cb49e965b33",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "a2ee80402b6291d3",
+            "id": "9e17055864ac4188",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "344d92f46d6d9dc1",
+            "id": "b9f7a5986c1b77fd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "ca70386c6168b00f",
+            "id": "65d9a618c55fd6dc",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -129,8 +129,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,16 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67ce006ff55bbde4",
+  "active": "cfd248738e3750b7",
   "lastOpenFiles": [
-    "cli resources/tutorials_articles_blogs/table_of_contents.md",
-    "cli resources/tutorials_articles_blogs/tutorials_articles_blogs.md",
+    "cli resources/tutorials articles and blogs/table of contents.md",
     "cli resources/abcs_of_clis.md",
-    "[Building.md",
-    "cli resources/tutorials_articles_blogs",
+    "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
+    "Table of Contents.md",
     "README.md",
-    "cli resources/__media",
-    "__media",
-    "cli resources"
+    "New folder",
+    "test",
+    "obsidian_vault"
   ]
 }

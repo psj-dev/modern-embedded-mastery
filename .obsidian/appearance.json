@@ -1,9 +1,9 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "hidden-folders",
-    "hidden-inline-title",
     "hidden-embed-container",
-    "hidden-embed-titles"
+    "hidden-embed-titles",
+    "hidden-inline-title",
+    "hidden-folders"
   ]
 }
