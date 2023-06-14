@@ -23,3 +23,13 @@ jobs:
 
     - name: Run script
       run: python ./.github/scripts/generate_readme.py ${{ github.workspace }}
+
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        message="README.md is updated automatically"
+        git commit -m "${message}" || echo "No changes to commit"
+        git push
