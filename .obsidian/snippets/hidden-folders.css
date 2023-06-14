@@ -1,0 +1,4 @@
+div[data-path*='__media'],
+div[data-path*='__media'] + div.nav-folder-children {
+    display: none;
+}

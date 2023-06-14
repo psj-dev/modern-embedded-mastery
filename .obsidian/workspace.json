@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "ea08b84491d77ade",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2730304d5bb93f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67ce006ff55bbde4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b180725190545f28",
+    "type": "split",
+    "children": [
+      {
+        "id": "8aa08adbdaf7d714",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8caca25f839d2cd9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8916da8a1a7de22",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d47184cf9d9f67a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37758c4a8ddc4f39",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddbe89c096e458e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30b14424ff01ac57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a2ee80402b6291d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "344d92f46d6d9dc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ca70386c6168b00f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "67ce006ff55bbde4",
+  "lastOpenFiles": [
+    "cli resources/tutorials_articles_blogs/table_of_contents.md",
+    "cli resources/tutorials_articles_blogs/tutorials_articles_blogs.md",
+    "cli resources/abcs_of_clis.md",
+    "[Building.md",
+    "cli resources/tutorials_articles_blogs",
+    "README.md",
+    "cli resources/__media",
+    "__media",
+    "cli resources"
+  ]
+}

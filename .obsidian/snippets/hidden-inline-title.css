@@ -1,0 +1,4 @@
+.hide-title.markdown-preview-view .inline-title,  
+.markdown-source-view .inline-title {  
+  display: none;  
+}
