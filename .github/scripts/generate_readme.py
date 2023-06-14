@@ -8,8 +8,8 @@ parser.add_argument('root_path', type=str, help='Root path of the project')
 args = parser.parse_args()
 
 try:
-    # Path to the README.stub file and root path
-    stub_path = os.path.join(args.root_path, '.github/README.stub')
+    # Path to the __README.stub file and root path
+    stub_path = os.path.join(args.root_path, '.github/__README.stub')
     root_path = args.root_path
 
     # Read the contents of the stub file
