@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cli resources/tutorials articles and blogs/tutorials articles and blogs.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "cfd248738e3750b7",
   "lastOpenFiles": [
-    "cli resources/repositories source code and examples/repositories source code and examples.md",
     "Table of Contents.md",
-    "cli resources/repositories source code and examples/table of contents.md",
     "README.md",
+    "cli resources/repositories source code and examples/table of contents.md",
+    "cli resources/repositories source code and examples/repositories source code and examples.md",
+    "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
     "cli resources/abcs_of_clis.md",
     "cli resources/tutorials articles and blogs/table of contents.md",
     "cli resources/repositories source code and examples",
-    "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
     "New folder",
     "test",
     "obsidian_vault"
