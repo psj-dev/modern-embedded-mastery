@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "cli resources/abcs_of_clis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c8f7df0dc5cc264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Table of Contents.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Table of Contents.md"
               }
             }
           }
@@ -146,15 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfd248738e3750b7",
+  "active": "5c8f7df0dc5cc264",
   "lastOpenFiles": [
+    "unit testing resources/unit testing frameworks/table of contents.md",
+    "unit testing resources/unit testing frameworks/unit testing frameworks.md",
     "Table of Contents.md",
+    "unit testing resources/test_early_debug_rarely.md",
+    "cli resources/abcs_of_clis.md",
+    "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
+    "Untitled.md",
+    "cli resources/tutorials articles and blogs/table of contents.md",
+    "unit testing resources/unit testing frameworks",
+    "unit testing resources",
     "README.md",
     "cli resources/repositories source code and examples/table of contents.md",
     "cli resources/repositories source code and examples/repositories source code and examples.md",
-    "cli resources/tutorials articles and blogs/tutorials articles and blogs.md",
-    "cli resources/abcs_of_clis.md",
-    "cli resources/tutorials articles and blogs/table of contents.md",
     "cli resources/repositories source code and examples",
     "New folder",
     "test",
