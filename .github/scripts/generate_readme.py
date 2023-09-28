@@ -16,31 +16,42 @@ try:
     with open(stub_path, 'r') as f:
         stub_contents = f.read()
 
-    # Get a list of directories at the root of the project (excluding dotfiles)
-    dirs = [dir for dir in next(os.walk(root_path))[1] if not dir.startswith('.')]
+    # Get a list of topic directories at the root of the project (excluding dotfiles)
+    topics = [dir for dir in next(os.walk(root_path))[1] if not dir.startswith('.')]
+
+    # Print the list of topics with numbers
+    print('Topics:')
+    for i, topic_name in enumerate(topics, start=1):
+        print(f'{i}. {topic_name}')
 
     # Initialize an empty dictionary to hold the table of contents for each directory
     tables_of_contents = {}
 
-    for dir_name in dirs:
-        # Get a list of content directories in the current topic directory
-        content_dirs = [dir for dir in next(os.walk(os.path.join(root_path, dir_name)))[1] if not dir.startswith('.')]
-        for content_dir in content_dirs:
+    for topic_name in topics:
+        # Get a list of subtopic directories in the current topic directory
+        subtopics = [dir for dir in next(os.walk(os.path.join(root_path, topic_name)))[1] if not dir.startswith('.')]
+
+        # Print the list of subtopics with numbers
+        print(f'\nSubtopics for {topic_name}:')
+        for i, subtopic_name in enumerate(subtopics, start=1):
+            print(f'{i}. {subtopic_name}')
+
+        for subtopic_name in subtopics:
             # Use a glob pattern to find 'table of contents.md' files in the current content directory
-            toc_path = glob.glob(os.path.join(root_path, dir_name, content_dir, 'table of contents.md'))
+            toc_path = glob.glob(os.path.join(root_path, topic_name, subtopic_name, 'table of contents.md'))
             if toc_path:
                 # Read the contents of the 'table of contents.md' file
                 with open(toc_path[0], 'r') as f:
                     toc_contents = f.read()
-                # Store the contents in the dictionary, using the content directory name as the key
-                if content_dir in tables_of_contents:
-                    tables_of_contents[content_dir] += '\n' + toc_contents
+                # Store the contents in the dictionary, using the subtopic directory name as the key
+                if subtopic_name in tables_of_contents:
+                    tables_of_contents[subtopic_name] += '\n' + toc_contents
                 else:
-                    tables_of_contents[content_dir] = toc_contents
+                    tables_of_contents[subtopic_name] = toc_contents
 
     # Replace each tag in the stub contents with the corresponding table of contents
-    for content_dir, toc_contents in tables_of_contents.items():
-        tag = '{' + content_dir + '}'
+    for subtopic_name, toc_contents in tables_of_contents.items():
+        tag = '{' + subtopic_name + '}'
         stub_contents = stub_contents.replace(tag, toc_contents)
 
     # Write the final contents to the 'README.md' file
